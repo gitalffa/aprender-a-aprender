@@ -143,3 +143,43 @@ recordarte cómo configurar los estilos de los elementos*/
 .cite {
   margin-top: 20px;
 }
+.feynman {
+  width: 100%;
+  height: 790px;
+  position: relative;
+}
+.feynma__title {
+  width: 770px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 75px;
+  line-height: 90px;
+  font-size: 60px;
+  font-weight: bold;
+  z-index: 9;
+}
+.feynman__subtitle {
+  position: relative;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 8;
+}
+.feynman__image {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.feynman__link {
+  position: absolute;
+  line-height: 51px;
+  font-size: 25px;
+  font-weight: normal;
+  right: 48px;
+  top: 50%;
+}
