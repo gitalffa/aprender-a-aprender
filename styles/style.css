@@ -199,7 +199,7 @@ recordarte cómo configurar los estilos de los elementos*/
   top: 50%;
 }
 .kaufman {
-  margin-top: 90px;
+  padding-top: 90px;
   background-color: black;
   overflow: hidden;
   position: relative;
@@ -217,4 +217,46 @@ recordarte cómo configurar los estilos de los elementos*/
   top: 0;
   width: 660px;
   height: 636px;
+}
+.footer {
+  padding-top: 60px;
+  background-color: black;
+}
+.footer__columns {
+  display: flex;
+  min-width: 350px;
+  justify-content: space-between;
+}
+.footer_column_place-footer {
+  width: 183px;
+  height: 35px;
+  position: static; /* Reinicia la posición */
+}
+.footer__author {
+  color: white;
+  padding-bottom: 18px;
+}
+.footer__column-heading {
+  color: white;
+  padding-bottom: 20px;
+}
+.footer_column_content-copyrigth {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer__list li {
+  color: white;
+  list-style: none;
+}
+
+.footer__img-social {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+.footer_column_content-social a {
+  text-decoration: none;
+  color: white;
 }
