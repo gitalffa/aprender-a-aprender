@@ -1,0 +1,10 @@
+.page {
+  min-width: 1100px;
+  /* Todavía no sabemos cómo hacer versiones de páginas web para móviles, así que
+       hemos establecido un mínimo para el ancho de la página */
+  max-width: 1600px;
+  /* Aquí hemos establecido un máximo para el ancho de la página */
+  margin: 0 auto;
+  /* esto garantiza que todo el contenido esté centrado en pantallas de más de 1600 px */
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}

@@ -1,0 +1,14 @@
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/description.css);
+@import url(../blocks/two-columns.css);
+@import url(../blocks/digits.css);
+@import url(../blocks/feynman.css);
+@import url(../blocks/kaufman.css);
+@import url(../blocks/footer.css);
+@import url(../blocks/techniques.css);
+
+/* Aquí tenemos dos ejemplos de selectores para
+recordarte cómo configurar los estilos de los elementos*/
+
+/* incluidos aquellos con modificadores clave-valor */

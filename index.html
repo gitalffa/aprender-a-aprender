@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Aprender a aprender</title>
   </head>
   <body>
     <div class="page">
-      <header class="header">
+      <header class="page__header">
         <img
           src="./images/TripletenLogo.svg"
           alt="logo tripleten"
-          class="logo"
+          class="header__logo"
         />
         <div class="header__title">
           <h1>Aprender a aprender</h1>
@@ -32,13 +32,13 @@
 sobre los puntos más delicados del sistema educativo moderno,
 mientras también se preguntaba de dónde vino ese cuadrado
 azul gigante"
-          class="header_main-illustration"
+          class="header__main-illustration"
         />
         <div class="header__square-pic"></div>
       </header>
-      <main class="content">
-        <section class="description">
-          <div class="two-columns">
+      <main class="page__content">
+        <section class="content__description">
+          <div class="description__two-columns">
             <div class="two-columns__brief">
               <p>El Principal Problema de la educación</p>
             </div>
@@ -76,15 +76,82 @@ azul gigante"
             </div>
           </div>
         </section>
-
-        <section class="digits">
-          <div class="section-title">
+        <section class="content__techniques">
+          <h1 class="techniques__title">Técnicas de aprendizaje</h1>
+          <h2 class="techniques__sub-title">
+            Cinco estrategias por Barbara Oakley
+          </h2>
+          <div class="techniques__cards">
+            <div class="cards__item">
+              <img
+                src="./images/cards-attention.png"
+                alt="Libro mostrado por unas manos"
+                class="cards__image"
+              />
+              <p class="cards__title">Piensa de dos maneras distintas</p>
+              <p class="cards__description">
+                Un profundo conocimiento se puede lograr alternando libremente
+                entre el pensamiento concentrado y el difuso.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                src="./images/cards-recall.png"
+                alt="Escultura en marmol pensativa"
+                class="cards__image"
+              />
+              <p class="cards__title">Usa el recuerdo</p>
+              <p class="cards__description">
+                Mejorar tu capacidad de recordar piezas clave de información
+                ayuda a conectar diferentes áreas del cerebro.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                src="./images/cards-interleaving.png"
+                alt="Vista aerea de un auditorio"
+                class="cards__image"
+              />
+              <p class="cards__title">Alterna</p>
+              <p class="cards__description">
+                Cuando aprendes múltiples habilidades al mismo tiempo, estas se
+                refuerzan mutuamente.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                src="./images/cards-question.png"
+                alt="Hombre solitario en gran salon"
+                class="cards__image"
+              />
+              <p class="cards__title">Alterna</p>
+              <p class="cards__description">
+                Cuando aprendes múltiples habilidades al mismo tiempo, estas se
+                refuerzan mutuamente.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                src="./images/cards-competence.png"
+                alt="Hombre solitario en gran salon"
+                class="cards__image"
+              />
+              <p class="cards__title">Pregunta</p>
+              <p class="cards__description">
+                Cuando escuches a tu profesor, piensa en una buena pregunta, en
+                algo que realmente te intrigue.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="content__digits">
+          <div class="digits__section-title">
             <h1>Datos y figuras</h1>
           </div>
-          <div class="section-subtitle">
+          <div class="digits__section-subtitle">
             <h2>El aprendizaje y el cerebro</h2>
           </div>
-          <div class="table">
+          <div class="digits__table">
             <ul>
               <li>
                 <div class="table__cell">
@@ -190,7 +257,7 @@ azul gigante"
           </div>
         </section>
 
-        <section class="feynman">
+        <section class="content__feynman">
           <div class="feynma__title">
             <h1>La técnica Feynman</h1>
           </div>
@@ -207,7 +274,7 @@ azul gigante"
           />
         </section>
 
-        <section class="kaufman">
+        <section class="content__kaufman">
           <div class="section-title section-title_theme_dark">
             <h1>Diez principios para adquirir habilidades rápidamente</h1>
           </div>
@@ -324,7 +391,7 @@ azul gigante"
           triángulo azul, sobre el que Josh Kaufman reclama la propiedad" />
         </section>
       </main>
-      <footer class="footer">
+      <footer class="content__footer">
         <div class="footer__columns">
           <div class="footer__column footer_column_content-copyrigth">
             <img
