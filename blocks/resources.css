@@ -1,0 +1,18 @@
+.resources__title {
+  margin: 100px auto 0 auto;
+  width: 60%;
+  text-align: center;
+}
+.resources__sub-title {
+  margin: 20px auto 0 auto;
+  width: 60%;
+  text-align: center;
+}
+.resources__logo-zone {
+  width: 1100px;
+  margin: 80px auto 217px auto;
+}
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
